@@ -50,17 +50,17 @@ func_scores:
     post_selection_sample: Lib1-250605-X15_1
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
-  Lib1-250606-high_ACE2_2:
+  Lib1-250605-high_ACE2_2:
     pre_selection_sample: Lib1-250605-VSVG_2
     post_selection_sample: Lib1-250605-X15_2
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
-  Lib1-250607-high_ACE2_3:
+  Lib1-250605-high_ACE2_3:
     pre_selection_sample: Lib1-250605-VSVG_3
     post_selection_sample: Lib1-250605-X15_3
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
-  Lib1-250608-high_ACE2_4:
+  Lib1-250605-high_ACE2_4:
     pre_selection_sample: Lib1-250605-VSVG_4
     post_selection_sample: Lib1-250605-X15_4
     func_score_params: *func_scores_params_default
@@ -109,9 +109,9 @@ avg_func_effects:
     title: Mutation effects on entry into 293T cells expressing high ACE2
     selections:
       - Lib1-250605-high_ACE2_1
-      - Lib1-250606-high_ACE2_2
-      - Lib1-250607-high_ACE2_3
-      - Lib1-250608-high_ACE2_4
+      - Lib1-250605-high_ACE2_2
+      - Lib1-250605-high_ACE2_3
+      - Lib1-250605-high_ACE2_4
       
 # --------------------------------------------------------------------------------------
 # Configuration for func effect shifts from `multidms` models comparing conditions.

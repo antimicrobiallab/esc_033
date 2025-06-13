@@ -1,4 +1,4 @@
-Computing functional scores for selection=Lib1-250606-high_ACE2_2
+Computing functional scores for selection=Lib1-250605-high_ACE2_2
 
 These samples are for library='Lib1'
 
@@ -21,6 +21,6 @@ sufficient_pre_selection_counts
 False                                 65827
 True                                  14982
 
-Writing summary counts to results/func_scores/Lib1-250606-high_ACE2_2_count_summary.csv
+Writing summary counts to results/func_scores/Lib1-250605-high_ACE2_2_count_summary.csv
 
-Writing functional scores to results/func_scores/Lib1-250606-high_ACE2_2_func_scores.csv
+Writing functional scores to results/func_scores/Lib1-250605-high_ACE2_2_func_scores.csv
