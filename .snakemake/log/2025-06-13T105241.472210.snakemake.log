@@ -1,0 +1,75 @@
+host: IDL-SPD-DPGXL34
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job                 count
+----------------  -------
+all                     1
+avg_func_effects        1
+build_docs              1
+cp_html                 2
+notebook_html           1
+total                   6
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jun 13 10:52:42 2025]
+localrule avg_func_effects:
+    input: data/site_numbering_map.csv, results/func_effects/by_selection/Lib1-250605-high_ACE2_1_func_effects.csv, results/func_effects/by_selection/Lib1-250606-high_ACE2_2_func_effects.csv, results/func_effects/by_selection/Lib1-250607-high_ACE2_3_func_effects.csv, results/func_effects/by_selection/Lib1-250608-high_ACE2_4_func_effects.csv, dms-vep-pipeline-3/notebooks/avg_func_effects.ipynb
+    output: results/notebooks/avg_func_effects_293T_entry.ipynb, results/func_effects/averages/293T_entry_func_effects.csv, results/func_effects/averages/293T_entry_latent_effects.csv, results/func_effects/averages/293T_entry_func_effects.html, results/func_effects/averages/293T_entry_latent_effects.html
+    log: results/logs/avg_func_effects_293T_entry.txt
+    jobid: 36
+    reason: Missing output files: results/func_effects/averages/293T_entry_func_effects.html, results/notebooks/avg_func_effects_293T_entry.ipynb, results/func_effects/averages/293T_entry_func_effects.csv, results/func_effects/averages/293T_entry_latent_effects.html
+    wildcards: condition=293T_entry
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 10:52:46 2025]
+Error in rule avg_func_effects:
+    jobid: 36
+    input: data/site_numbering_map.csv, results/func_effects/by_selection/Lib1-250605-high_ACE2_1_func_effects.csv, results/func_effects/by_selection/Lib1-250606-high_ACE2_2_func_effects.csv, results/func_effects/by_selection/Lib1-250607-high_ACE2_3_func_effects.csv, results/func_effects/by_selection/Lib1-250608-high_ACE2_4_func_effects.csv, dms-vep-pipeline-3/notebooks/avg_func_effects.ipynb
+    output: results/notebooks/avg_func_effects_293T_entry.ipynb, results/func_effects/averages/293T_entry_func_effects.csv, results/func_effects/averages/293T_entry_latent_effects.csv, results/func_effects/averages/293T_entry_func_effects.html, results/func_effects/averages/293T_entry_latent_effects.html
+    log: results/logs/avg_func_effects_293T_entry.txt (check log file(s) for error details)
+    conda-env: /home/sooriyakks/Documents/analysis/esc/2025-06/2025-06-05_esc033/dms_033/.snakemake/conda/e64b6192f9b33c4f320ec9a9708c8295_
+    shell:
+        
+        papermill dms-vep-pipeline-3/notebooks/avg_func_effects.ipynb results/notebooks/avg_func_effects_293T_entry.ipynb             -p site_numbering_map_csv data/site_numbering_map.csv             -p func_effects_csv results/func_effects/averages/293T_entry_func_effects.csv             -p latent_effects_csv results/func_effects/averages/293T_entry_latent_effects.csv             -p functional_html results/func_effects/averages/293T_entry_func_effects.html             -p latent_html results/func_effects/averages/293T_entry_latent_effects.html             -y 'params:
+  avg_method: median
+  per_selection_tooltips: true
+  plot_kwargs:
+    addtl_slider_stats:
+      times_seen: 4
+    heatmap_max_at_least: 1
+    heatmap_min_at_least: -1
+    init_floor_at_zero: false
+    init_site_statistic: mean
+    site_zoom_bar_color_col: region
+    slider_binding_range_kwargs:
+      times_seen:
+        step: 1
+        min: 1
+        max: 25
+      n_selections:
+        step: 1
+    sites_to_show:
+  title: Mutation effects on entry into 293T cells expressing high ACE2
+  selections:
+  - Lib1-250605-high_ACE2_1
+  - Lib1-250606-high_ACE2_2
+  - Lib1-250607-high_ACE2_3
+  - Lib1-250608-high_ACE2_4
+mutation_annotations_csv:
+'             &> results/logs/avg_func_effects_293T_entry.txt
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job avg_func_effects since they might be corrupted:
+results/notebooks/avg_func_effects_293T_entry.ipynb, results/func_effects/averages/293T_entry_func_effects.csv, results/func_effects/averages/293T_entry_latent_effects.csv
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-06-13T105241.472210.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.
