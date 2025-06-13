@@ -1,0 +1,59 @@
+host: IDL-SPD-DPGXL34
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job              count
+-------------  -------
+all                  1
+build_docs           1
+notebook_html        1
+total                3
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jun 13 10:37:39 2025]
+localrule notebook_html:
+    input: results/notebooks/analyze_variant_counts.ipynb
+    output: docs/notebooks/analyze_variant_counts.html
+    log: results/logs/notebook_html_analyze_variant_counts.txt
+    jobid: 36
+    reason: Missing output files: docs/notebooks/analyze_variant_counts.html
+    wildcards: notebook=analyze_variant_counts
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 10:37:40 2025]
+Finished job 36.
+1 of 3 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jun 13 10:37:40 2025]
+localrule build_docs:
+    input: results/gene_sequence/codon.fasta, results/gene_sequence/protein.fasta, results/variants/codon_variants.csv, results/notebooks/analyze_variant_counts.ipynb, results/barcode_counts/Lib1-250605-C77_1_counts.csv, results/barcode_counts/Lib1-250605-C77_2_counts.csv, results/barcode_counts/Lib1-250605-C77_3_counts.csv, results/barcode_counts/Lib1-250605-C77_4_counts.csv, results/barcode_counts/Lib1-250605-VSVG_1_counts.csv, results/barcode_counts/Lib1-250605-VSVG_2_counts.csv, results/barcode_counts/Lib1-250605-VSVG_3_counts.csv, results/barcode_counts/Lib1-250605-VSVG_4_counts.csv, results/barcode_counts/Lib1-250605-WT_1_1_counts.csv, results/barcode_counts/Lib1-250605-WT_1_2_counts.csv, results/barcode_counts/Lib1-250605-WT_1_3_counts.csv, results/barcode_counts/Lib1-250605-WT_1_4_counts.csv, results/barcode_counts/Lib1-250605-WT_4_1_counts.csv, results/barcode_counts/Lib1-250605-WT_4_2_counts.csv, results/barcode_counts/Lib1-250605-WT_4_3_counts.csv, results/barcode_counts/Lib1-250605-WT_4_4_counts.csv, results/barcode_counts/Lib1-250605-WT_025_1_counts.csv, results/barcode_counts/Lib1-250605-WT_025_2_counts.csv, results/barcode_counts/Lib1-250605-WT_025_3_counts.csv, results/barcode_counts/Lib1-250605-WT_025_4_counts.csv, results/barcode_counts/Lib1-250605-X15_1_counts.csv, results/barcode_counts/Lib1-250605-X15_2_counts.csv, results/barcode_counts/Lib1-250605-X15_3_counts.csv, results/barcode_counts/Lib1-250605-X15_4_counts.csv, results/barcode_counts/Lib1-250605-YHA_1_1_counts.csv, results/barcode_counts/Lib1-250605-YHA_1_2_counts.csv, results/barcode_counts/Lib1-250605-YHA_1_3_counts.csv, results/barcode_counts/Lib1-250605-YHA_1_4_counts.csv, results/barcode_counts/Lib1-250605-YHA_025_1_counts.csv, results/barcode_counts/Lib1-250605-YHA_025_2_counts.csv, results/barcode_counts/Lib1-250605-YHA_025_3_counts.csv, results/barcode_counts/Lib1-250605-YHA_025_4_counts.csv, data/site_numbering_map.csv, docs/notebooks/analyze_variant_counts.html
+    output: docs/index.html
+    log: results/logs/build_docs.txt
+    jobid: 37
+    reason: Missing output files: docs/index.html; Input files updated by another job: docs/notebooks/analyze_variant_counts.html
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 10:37:40 2025]
+Finished job 37.
+2 of 3 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jun 13 10:37:40 2025]
+localrule all:
+    input: results/gene_sequence/codon.fasta, results/gene_sequence/protein.fasta, results/variants/codon_variants.csv, results/notebooks/analyze_variant_counts.ipynb, results/barcode_counts/Lib1-250605-C77_1_counts.csv, results/barcode_counts/Lib1-250605-C77_2_counts.csv, results/barcode_counts/Lib1-250605-C77_3_counts.csv, results/barcode_counts/Lib1-250605-C77_4_counts.csv, results/barcode_counts/Lib1-250605-VSVG_1_counts.csv, results/barcode_counts/Lib1-250605-VSVG_2_counts.csv, results/barcode_counts/Lib1-250605-VSVG_3_counts.csv, results/barcode_counts/Lib1-250605-VSVG_4_counts.csv, results/barcode_counts/Lib1-250605-WT_1_1_counts.csv, results/barcode_counts/Lib1-250605-WT_1_2_counts.csv, results/barcode_counts/Lib1-250605-WT_1_3_counts.csv, results/barcode_counts/Lib1-250605-WT_1_4_counts.csv, results/barcode_counts/Lib1-250605-WT_4_1_counts.csv, results/barcode_counts/Lib1-250605-WT_4_2_counts.csv, results/barcode_counts/Lib1-250605-WT_4_3_counts.csv, results/barcode_counts/Lib1-250605-WT_4_4_counts.csv, results/barcode_counts/Lib1-250605-WT_025_1_counts.csv, results/barcode_counts/Lib1-250605-WT_025_2_counts.csv, results/barcode_counts/Lib1-250605-WT_025_3_counts.csv, results/barcode_counts/Lib1-250605-WT_025_4_counts.csv, results/barcode_counts/Lib1-250605-X15_1_counts.csv, results/barcode_counts/Lib1-250605-X15_2_counts.csv, results/barcode_counts/Lib1-250605-X15_3_counts.csv, results/barcode_counts/Lib1-250605-X15_4_counts.csv, results/barcode_counts/Lib1-250605-YHA_1_1_counts.csv, results/barcode_counts/Lib1-250605-YHA_1_2_counts.csv, results/barcode_counts/Lib1-250605-YHA_1_3_counts.csv, results/barcode_counts/Lib1-250605-YHA_1_4_counts.csv, results/barcode_counts/Lib1-250605-YHA_025_1_counts.csv, results/barcode_counts/Lib1-250605-YHA_025_2_counts.csv, results/barcode_counts/Lib1-250605-YHA_025_3_counts.csv, results/barcode_counts/Lib1-250605-YHA_025_4_counts.csv, data/site_numbering_map.csv, docs/notebooks/analyze_variant_counts.html, docs/index.html
+    jobid: 0
+    reason: Input files updated by another job: docs/notebooks/analyze_variant_counts.html, docs/index.html
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 10:37:40 2025]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: .snakemake/log/2025-06-13T103738.972750.snakemake.log

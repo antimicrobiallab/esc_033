@@ -1,0 +1,60 @@
+<h1 id="deep-mutational-scanning-analysis-for-esc033">Deep mutational scanning analysis for ESC033</h1>
+<p>Analysis by SooriyaK (2025)</p>
+<p>See <a href="https://github.com/antimicrobiallab/esc_033">https://github.com/antimicrobiallab/esc_033</a> for full code.</p>
+<div class="toc"><span class="toctitle">Contents</span><ul>
+<li><a href="#barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</a></li>
+<li><a href="#count-barcodes-for-variants">Count barcodes for variants</a></li>
+</ul>
+</div>
+<h2 id="barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</h2>
+<h4 id="data-files">Data files</h4>
+<ul>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/gene_sequence/codon.fasta">parental codon sequence</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/gene_sequence/protein.fasta">parental protein sequence</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/variants/codon_variants.csv">barcode to codon-variant lookup table</a></li>
+</ul>
+<h2 id="count-barcodes-for-variants">Count barcodes for variants</h2>
+<h4 id="analysis-notebooks">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_variant_counts.html">Analysis of variant counts</a></li>
+</ul>
+<h4 id="data-files_1">Data files</h4>
+<ul>
+<li><details><summary>Barcode count CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-C77_1_counts.csv">Lib1-250605-C77_1</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-C77_2_counts.csv">Lib1-250605-C77_2</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-C77_3_counts.csv">Lib1-250605-C77_3</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-C77_4_counts.csv">Lib1-250605-C77_4</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-VSVG_1_counts.csv">Lib1-250605-VSVG_1</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-VSVG_2_counts.csv">Lib1-250605-VSVG_2</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-VSVG_3_counts.csv">Lib1-250605-VSVG_3</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-VSVG_4_counts.csv">Lib1-250605-VSVG_4</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_1_1_counts.csv">Lib1-250605-WT_1_1</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_1_2_counts.csv">Lib1-250605-WT_1_2</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_1_3_counts.csv">Lib1-250605-WT_1_3</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_1_4_counts.csv">Lib1-250605-WT_1_4</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_4_1_counts.csv">Lib1-250605-WT_4_1</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_4_2_counts.csv">Lib1-250605-WT_4_2</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_4_3_counts.csv">Lib1-250605-WT_4_3</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_4_4_counts.csv">Lib1-250605-WT_4_4</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_025_1_counts.csv">Lib1-250605-WT_025_1</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_025_2_counts.csv">Lib1-250605-WT_025_2</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_025_3_counts.csv">Lib1-250605-WT_025_3</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-WT_025_4_counts.csv">Lib1-250605-WT_025_4</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-X15_1_counts.csv">Lib1-250605-X15_1</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-X15_2_counts.csv">Lib1-250605-X15_2</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-X15_3_counts.csv">Lib1-250605-X15_3</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-X15_4_counts.csv">Lib1-250605-X15_4</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-YHA_1_1_counts.csv">Lib1-250605-YHA_1_1</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-YHA_1_2_counts.csv">Lib1-250605-YHA_1_2</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-YHA_1_3_counts.csv">Lib1-250605-YHA_1_3</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-YHA_1_4_counts.csv">Lib1-250605-YHA_1_4</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-YHA_025_1_counts.csv">Lib1-250605-YHA_025_1</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-YHA_025_2_counts.csv">Lib1-250605-YHA_025_2</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-YHA_025_3_counts.csv">Lib1-250605-YHA_025_3</a></li>
+<li><a href="https://github.com/antimicrobiallab/esc_033/blob/main/results/barcode_counts/Lib1-250605-YHA_025_4_counts.csv">Lib1-250605-YHA_025_4</a></li>
+</ul></details>
+
+</li>
+</ul>

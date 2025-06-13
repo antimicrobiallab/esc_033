@@ -1,0 +1,4 @@
+Input Notebook:  dms-vep-pipeline-3/notebooks/analyze_variant_counts.ipynb
+Output Notebook: results/notebooks/analyze_variant_counts.ipynb
+Executing:   0%|          | 0/26 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   4%|▍         | 1/26 [00:00<00:15,  1.60cell/s]Executing:   8%|▊         | 2/26 [00:01<00:12,  1.97cell/s]Executing:  31%|███       | 8/26 [00:06<00:15,  1.13cell/s]Executing:  46%|████▌     | 12/26 [00:07<00:07,  1.85cell/s]Executing:  54%|█████▍    | 14/26 [00:08<00:06,  1.92cell/s]Executing:  62%|██████▏   | 16/26 [00:08<00:04,  2.17cell/s]Executing:  69%|██████▉   | 18/26 [00:08<00:02,  2.81cell/s]Executing:  77%|███████▋  | 20/26 [00:09<00:01,  3.46cell/s]Executing:  85%|████████▍ | 22/26 [00:12<00:02,  1.40cell/s]Executing:  92%|█████████▏| 24/26 [00:20<00:03,  1.68s/cell]Executing: 100%|██████████| 26/26 [00:21<00:00,  1.23cell/s]

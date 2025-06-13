@@ -1,0 +1,26 @@
+Computing functional scores for selection=Lib1-250607-high_ACE2_3
+
+These samples are for library='Lib1'
+
+Getting pre_selection_sample barcode counts from results/barcode_counts/Lib1-250605-VSVG_3_counts.csv
+
+Getting post_selection_sample barcode counts from results/barcode_counts/Lib1-250605-X15_3_counts.csv
+
+Using pseudocount 0.5
+Requiring at least 27634.066 total wildtype counts for pre_count, which is the greater of min_wt_count=1000 and min_wt_frac=0.001 of the 27634066 total counts.
+
+Adequate pre_count wildtype counts of 4091570
+
+Requiring at least 3552.228 total wildtype counts for post_count, which is the greater of min_wt_count=1000 and min_wt_frac=0.001 of the 3552228 total counts.
+
+Adequate post_count wildtype counts of 787446
+
+Only keeping scores for variants with at least 27.634065999999997 pre-selection counts:
+                                 n_variants
+sufficient_pre_selection_counts            
+False                                 66474
+True                                  14335
+
+Writing summary counts to results/func_scores/Lib1-250607-high_ACE2_3_count_summary.csv
+
+Writing functional scores to results/func_scores/Lib1-250607-high_ACE2_3_func_scores.csv

@@ -1,0 +1,10 @@
+There are 80809 valid barcodes for library='Lib1'
+Parsing barcodes from /home/sooriyakks/Documents/analysis/esc/2025-06/2025-06-05_esc033/trial/SARS-CoV-2_XBB.1.5_spike_DMS_VRC_A43-10.4/sequencing_data/Lib1-250605- C77_2_L8_1.fq.gz
+Counts of valid and invalid barcodes:
+       n_barcodes  n_counts
+valid                      
+False        6626    487119
+True         8629   2470221
+Writing valid barcode counts to results/barcode_counts/Lib1-250605-C77_2_counts.csv
+Writing invalid barcode counts to results/barcode_counts/Lib1-250605-C77_2_invalid.csv
+Writing barcode fates to results/barcode_counts/Lib1-250605-C77_2_fates.csv
