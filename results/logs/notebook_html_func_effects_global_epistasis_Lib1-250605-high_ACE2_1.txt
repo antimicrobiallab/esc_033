@@ -1,3 +1,3 @@
 [NbConvertApp] Converting notebook results/notebooks/func_effects_global_epistasis_Lib1-250605-high_ACE2_1.ipynb to html
 [NbConvertApp] WARNING | Alternative text is missing on 2 image(s).
-[NbConvertApp] Writing 822664 bytes to docs/notebooks/func_effects_global_epistasis_Lib1-250605-high_ACE2_1.html
+[NbConvertApp] Writing 788996 bytes to docs/notebooks/func_effects_global_epistasis_Lib1-250605-high_ACE2_1.html

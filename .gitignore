@@ -1,1 +1,2 @@
 sequencing_data/*
+.snakemake/*

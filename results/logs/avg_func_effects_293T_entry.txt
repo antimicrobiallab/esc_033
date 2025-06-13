@@ -1,7 +1,7 @@
 Input Notebook:  dms-vep-pipeline-3/notebooks/avg_func_effects.ipynb
 Output Notebook: results/notebooks/avg_func_effects_293T_entry.ipynb
 Executing:   0%|          | 0/20 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   5%|▌         | 1/20 [00:00<00:12,  1.57cell/s]Executing:  10%|█         | 2/20 [00:01<00:10,  1.75cell/s]Executing:  45%|████▌     | 9/20 [00:01<00:01, 10.00cell/s]Executing:  60%|██████    | 12/20 [00:01<00:00, 11.86cell/s]Executing:  75%|███████▌  | 15/20 [00:01<00:00,  8.96cell/s]Executing:  85%|████████▌ | 17/20 [00:02<00:00,  8.47cell/s]Executing:  95%|█████████▌| 19/20 [00:03<00:00,  4.97cell/s]Executing:  95%|█████████▌| 19/20 [00:03<00:00,  5.35cell/s]
+Executing:   5%|▌         | 1/20 [00:00<00:11,  1.58cell/s]Executing:  10%|█         | 2/20 [00:01<00:10,  1.79cell/s]Executing:  45%|████▌     | 9/20 [00:01<00:01, 10.14cell/s]Executing:  60%|██████    | 12/20 [00:01<00:00, 11.70cell/s]Executing:  75%|███████▌  | 15/20 [00:01<00:00,  8.89cell/s]Executing:  85%|████████▌ | 17/20 [00:02<00:00,  8.37cell/s]Executing:  95%|█████████▌| 19/20 [00:03<00:00,  4.97cell/s]Executing:  95%|█████████▌| 19/20 [00:03<00:00,  5.35cell/s]
 Traceback (most recent call last):
   File "/home/sooriyakks/miniconda3/envs/dms-vep-pipeline-3/bin/papermill", line 10, in <module>
     sys.exit(papermill())

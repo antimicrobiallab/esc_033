@@ -7,19 +7,19 @@ Getting pre_selection_sample barcode counts from results/barcode_counts/Lib1-250
 Getting post_selection_sample barcode counts from results/barcode_counts/Lib1-250605-X15_2_counts.csv
 
 Using pseudocount 0.5
-Requiring at least 24942.743000000002 total wildtype counts for pre_count, which is the greater of min_wt_count=1000 and min_wt_frac=0.001 of the 24942743 total counts.
+Requiring at least 24942.743000000002 total wildtype counts for pre_count, which is the greater of min_wt_count=10000 and min_wt_frac=0.001 of the 24942743 total counts.
 
 Adequate pre_count wildtype counts of 3649570
 
-Requiring at least 2230.641 total wildtype counts for post_count, which is the greater of min_wt_count=1000 and min_wt_frac=0.001 of the 2230641 total counts.
+Requiring at least 10000 total wildtype counts for post_count, which is the greater of min_wt_count=10000 and min_wt_frac=0.001 of the 2230641 total counts.
 
 Adequate post_count wildtype counts of 479621
 
-Only keeping scores for variants with at least 24.942743 pre-selection counts:
+Only keeping scores for variants with at least 49.885486 pre-selection counts:
                                  n_variants
 sufficient_pre_selection_counts            
-False                                 65824
-True                                  14985
+False                                 65827
+True                                  14982
 
 Writing summary counts to results/func_scores/Lib1-250606-high_ACE2_2_count_summary.csv
 
