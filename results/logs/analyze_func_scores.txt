@@ -1,4 +1,4 @@
 Input Notebook:  dms-vep-pipeline-3/notebooks/analyze_func_scores.ipynb
 Output Notebook: results/notebooks/analyze_func_scores.ipynb
 Executing:   0%|          | 0/15 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   7%|▋         | 1/15 [00:00<00:08,  1.60cell/s]Executing:  13%|█▎        | 2/15 [00:01<00:07,  1.64cell/s]Executing:  67%|██████▋   | 10/15 [00:01<00:00,  8.75cell/s]Executing:  80%|████████  | 12/15 [00:01<00:00,  8.77cell/s]Executing: 100%|██████████| 15/15 [00:02<00:00,  6.85cell/s]
+Executing:   7%|▋         | 1/15 [00:00<00:08,  1.58cell/s]Executing:  13%|█▎        | 2/15 [00:01<00:07,  1.68cell/s]Executing:  67%|██████▋   | 10/15 [00:01<00:00,  8.93cell/s]Executing:  80%|████████  | 12/15 [00:01<00:00,  8.87cell/s]Executing:  93%|█████████▎| 14/15 [00:01<00:00,  9.94cell/s]Executing: 100%|██████████| 15/15 [00:02<00:00,  7.14cell/s]

@@ -65,6 +65,12 @@ func_scores:
     post_selection_sample: Lib1-250605-X15_4
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
+  Lib2-250605-high_ACE2_4:
+    pre_selection_sample: Lib1-250605-VSVG_4
+    post_selection_sample: Lib1-250605-X15_4
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
+ 
  
 # --------------------------------------------------------------------------------------
 # Configuration for averaging mutation functional effects across selections and plotting
@@ -112,6 +118,8 @@ avg_func_effects:
       - Lib1-250605-high_ACE2_2
       - Lib1-250605-high_ACE2_3
       - Lib1-250605-high_ACE2_4
+      - Lib2-250605-high_ACE2_4
+      
       
 # --------------------------------------------------------------------------------------
 # Configuration for func effect shifts from `multidms` models comparing conditions.
